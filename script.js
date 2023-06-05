@@ -7,6 +7,7 @@ const createTask = (evento) => {
     const value = input.value;
     const task = document.querySelector('[data-task]');
     input.value = '';
+    console.log(task);
 
     const content = `<div>
     <i class="far fa-check-square icon"></i>
